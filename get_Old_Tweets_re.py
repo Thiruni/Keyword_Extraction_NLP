@@ -5,10 +5,10 @@ import traceback
 data_set = []
 
 def get_data_tweepy(user_name):
-    consumer_key = 'vfbYJnzktYxk75Au9F4zyzBJJ'
-    consumer_secret_key = 'Vj5R6QzuZAbPAJKe8fIAmOBsHspmUSoGZDevuA7VZf81y2bnJK'
-    access_token = '4834192821-iVslQFIReWAegd0TDKyZGHNm9zik1gSjgqCAXmF'
-    access_token_secret = 'mF7xsBn27IxXa4raDwJzVzK5ey8oPLqtuTrv4oj8lYhuR'
+    consumer_key = ''
+    consumer_secret_key = ''
+    access_token = ''
+    access_token_secret = ''
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret_key)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)
