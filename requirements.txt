@@ -19,7 +19,7 @@ idna==2.6
 importlib-metadata==0.23
 jaraco.functools==2.0
 jdcal==1.4.1
-joblib==0.14.0
+joblib==1.2.0
 kiwisolver==1.1.0
 lxml==4.4.1
 matplotlib==3.1.1
